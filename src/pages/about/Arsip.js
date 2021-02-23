@@ -4,9 +4,9 @@ import './arsip.scss';
 const Arsip = () => {
     return (
         <div>
-            <div className="wrapper">
-                <div className="col-lg-12 col-md-6 col-sm-6">teset</div>
-                <div className="col-lg-12 col-md-6 col-sm-6">teset</div>
+            <div className="row wrapper">
+                <div className="col-lg-5 col-md-6 col-sm-6 col-xs-12 view1">teset</div>
+                <div className="col-lg-5 col-md-6 col-sm-6 col-xs-12 view2">teset</div>
             </div>
         </div>
     )
